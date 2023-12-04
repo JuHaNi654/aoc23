@@ -68,7 +68,7 @@ func day4part2(cards *[]*scratchcards) int {
 	for i, group := range *cards {
 		nextItem := i + 1
 		for _, number := range group.current {
-			if contains(group.winning, number) {
+			if contains(group.winning, number) && nextItem < len(stats) {
 				stats[nextItem] = stats[nextItem] + stats[i]
 				nextItem++
 			}
