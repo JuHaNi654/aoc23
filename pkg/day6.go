@@ -20,7 +20,7 @@ func parseRow(s string) []int {
 	return items
 }
 
-// Just modify the input file, too lazy to compine numbers trough code
+// Just modify the input file, too lazy to combine numbers trough code
 func day6part1(t, d int) int {
 	result := 0
 	for i := 0; i <= t; i++ {
