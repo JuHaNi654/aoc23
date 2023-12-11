@@ -23,6 +23,8 @@ func main() {
 		pkg.Day4(file)
 	case "day6":
 		pkg.Day6(file)
+	case "day11":
+		pkg.Day11(file)
 	default:
 		fmt.Errorf("Day not found")
 	}
