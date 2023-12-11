@@ -7,6 +7,7 @@ import (
 	"strings"
 )
 
+// Just modify this value between part 1 and 2
 const extra_steps = 999_999
 
 type galaxyCoords struct {
